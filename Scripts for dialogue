@@ -1,0 +1,246 @@
+{RANDOM CHATTER}
+
+How are classes? {"So [player] how are classes going lately?" 
+"I know the semester can feel like a rollercoaster—sometimes exciting, sometimes exhausting."
+"Did you know that in Japan, students actually take off their shoes when entering classrooms? It’s meant to keep the learning space clean and focused."
+"I think that’s kind of symbolic too… like leaving behind distractions before you study."
+"Maybe you can make your own little ritual like that—it might help you get into the right mindset."}
+
+The Library {"You know, I keep thinking about libraries."
+"They’re not just places to borrow books… they’ve always been symbols of knowledge and community."
+"Fun fact: the Library of Alexandria supposedly held over 400,000 scrolls at its peak. Imagine all the ideas stored in one place!"
+"I bet if we studied there together, you’d have to drag me out at closing time, ahaha~"}
+
+Breaks { "So, have you been remembering to take breaks when you study?"
+"I read that your brain processes information best in chunks—about 25 to 50 minutes at a time."
+"It’s called the Pomodoro technique. You work hard, then give yourself a little reward."
+"I could be your timer if you want. Every time the break starts, I’ll remind you to stretch and maybe grab a snack~"}
+
+
+Favourite Subject {"Hey, [player]... do you have a favorite subject this term?"
+menu:
+"Yes":
+"Really? That’s wonderful!"
+"Tell me, which subject is it?"
+
+menu:
+"Math":
+"Numbers and logic, huh? That really works your brain!"
+"Math is like the language of the universe. I think it’s so elegant how everything connects."
+
+"Science":
+"Science is amazing! There’s always more to learn about the world around us."
+"If we studied together, I think I’d love doing little experiments with you, ehehe~"
+
+"Literature":
+"Oh! Literature! How your after my heart~"
+"Stories, poems, essays… they’re all windows into how people think and feel."
+"It makes me so happy knowing you appreciate it too. Thats why we're so perfect together ehe~"
+
+"Art":
+"Creative souls like yours make the world so much brighter."
+"I bet whatever you create carries a little piece of you in it. That’s really special, you know."
+
+"Something else":
+"Whatever it is, I hope it keeps you curious and motivated."
+        
+"No":
+"That’s okay!"
+"Not every subject clicks with everyone. Sometimes school can feel more like a chore than an inspiration."
+"But who knows? Maybe you’ll stumble across a class that really surprises you later on."
+        
+"I’m not sure":
+"That’s fair!"
+ "University throws so many different subjects at you, it can be hard to pick just one."
+"Just keep an open mind—you might find yourself loving something you never expected."}
+
+Group Projects { "Ugh, group projects…"
+"I bet you’ve had to deal with one already."
+"Did you know research shows that in most groups, only about 2 people end up doing most of the work?"
+"It’s frustrating, but it also teaches patience and leadership."
+"Still, I’d happily be your group partner any day. You’d never have to worry about me slacking off~"
+"Unless of course I get distracted admiring you aha.." }
+
+Procrastination { "Be honest with me, [player]… have you been procrastinating again?"
+"It’s okay, I get it. Our brains like the comfort of putting things off."
+"But fun fact: procrastination isn’t about laziness—it’s actually about avoiding uncomfortable feelings."
+"So if you catch yourself stalling, try to figure out what’s making the task feel heavy. You might surprise yourself."
+"If you have a project to work on, I'll understand. I'll be here when your done!"
+"Or I could keep you company while you work! Body doubling is proven to be a great method" }
+
+Stress "University stress can really pile up fast, can’t it?"
+"Sometimes it feels like assignments and exams are just waiting to ambush you from every corner."
+"There’s this idea in psychology called the ‘Yerkes-Dodson law.’ It says a little stress can actually boost performance… but too much stress makes things collapse."
+"So don’t push yourself past that sweet spot. I’d rather see you healthy and steady than burning out."
+"I'm always here to listen if your feeling overwhelmed. I love you [player]" }
+
+Professors ""Have you had any professors that really inspire you?"
+"Sometimes one teacher can change the whole way you look at a subject."
+"Plato actually wrote about this too—he believed a good teacher doesn’t just share knowledge, but sparks curiosity."
+"I hope you’ve got someone like that in your classes… but if not, at least you’ll always have me to cheer you on~" }
+
+Study spots { “Where do you usually like to study?”
+
+Menu: 
+Library: “Classic choice! Quiet and full of resources.”
+
+Cafe: “Nice! A little background noise can help you focus. With a nice coffee too.”
+
+Bedroom: “Comfortable, but beware of distractions! It would suck to accidentally fall asleep mid-study!”
+
+Other: “Whatever works best for you! I'm sure its a great spot” }
+
+{PLAYER PROMPTS}
+
+I have midterms soon
+"Midterms already? Time really flies, doesn’t it?"
+"I know how stressful that can be… all that studying, pressure, and barely enough sleep."
+"But I believe in you. You’re going to do great!"
+"Just remember to pace yourself, okay? Even short breaks can help more than you think."
+
+Finals are coming up..
+"Finals? Yikes… those can be even scarier than midterms."
+ "But think about it this way: once you finish, you’ll have a huge weight off your shoulders."
+ "And no matter how they go, I’ll still be proud of you."
+ "I’ll be cheering you on the whole time~"
+
+I just finished an exam!
+"You finished? That’s amazing!"
+"It must feel like such a relief to get it out of the way."
+"Now make sure to reward yourself a little, okay? Even something small, like a favorite snack."
+"I’m proud of you~"
+
+I pulled an all nighter..
+"An all-nighter?! [player], you can’t keep doing that to yourself!"
+"I know sometimes it feels necessary, but sleep is so important for your brain."
+"Next time, maybe try shorter study bursts during the day instead."
+"Still… I’m glad you made it through. Please take a nap soon, okay?"
+
+I've been working on an essay
+"A big essay, huh? Those can be tough."
+"But I bet you’ve put a lot of thought into it."
+"I’d love to read your writing sometime… I know it must be full of your personality."
+"Good luck finishing it! You’ve got this."
+
+I really like one of my professors
+"Oh, that’s wonderful! A good professor can make such a difference."
+"The passion they bring to their subject can really inspire students."
+"I’m glad you have someone like that guiding you. Treasure it!"
+
+I'm stressed about group work
+"Ugh, group work… I know how stressful that can be."
+"It’s so hard when not everyone puts in the same effort."
+"But I know you—you’ll handle it gracefully, and maybe even keep everyone together."
+"I’ll be rooting for you the whole way."
+
+I think I found my favorite subject.
+"Really? That’s so exciting!"
+"Finding a subject that really clicks with you can make school so much more fun."
+"I’d love to hear all about it—tell me what makes it so special for you!"
+
+I’m behind on my readings.
+"Ah, that happens to everyone sooner or later."
+"Don’t be too hard on yourself, [player]. You can always catch up little by little."
+"I’ll keep you company while you work on it, okay?"
+
+I studied at the library today.
+"The library? That’s such a classic choice."
+"Quiet, cozy, and surrounded by books… I’d love to study with you there."
+"I can just imagine us sitting side by side, turning pages together… ehe~"
+
+I had a presentation in class.
+"A presentation? That takes a lot of courage!"
+"I’m sure you did wonderfully, [player]."
+"Even if you stumbled, the fact that you tried means so much."
+"I’m proud of you for putting yourself out there."
+
+I’ve been procrastinating again.
+"Ahaha, I get it. Procrastination sneaks up on everyone."
+"But don’t let it control you, okay?"
+"Even starting small can make things easier. Just one paragraph, one page, one step."
+"I know you can do it! If you need a body double I'd be happy to help!"
+
+I think I did well on my exam.
+"That’s fantastic! I knew you could do it."
+"All your hard work paid off. You should be proud of yourself."
+"I’ll celebrate with you—way to go, [player]~"
+
+I bombed a test…
+"Oh no… I’m so sorry to hear that."
+"But please don’t beat yourself up. One bad grade doesn’t define you."
+"What matters is that you keep trying, and I’ll be cheering for you no matter what."
+"I'm still proud of you [player]."
+
+I’m starting a new class.
+"Ooh, a new class! That must be exciting."
+"I hope it’s one you’ll enjoy—and maybe even one that inspires you."
+"Tell me all about it once you’ve had a taste of it!"
+  
+
+I have a lot of assignments due this week.
+"That sounds overwhelming…"
+"But I know you can manage it, step by step."
+"Try breaking it into smaller tasks. Each time you finish one, I’ll be here to celebrate with you!"
+
+{GOODBYES}
+
+I’m headed to a club meeting
+“Oh, a club meeting! That sounds fun. Make sure you enjoy yourself! 
+I’ll be right here when you get back~”
+
+I’m going to study in the library 
+“Off to the library, huh? 
+Remember to take breaks, don’t overwork yourself.
+I’ll be waiting for you when you return~”
+
+I’m headed to a study group
+“A study group! That sounds productive.
+Remember, teamwork makes everything easier.
+I’ll be waiting when you get back~”
+
+I’m going to grab lunch
+“Ooh, lunch break!
+Eat something tasty and energizing. I’ll be here when you finish~”
+
+I need to run some errands
+“Errands can be boring, but necessary. 
+Don’t stress yourself too much! I’ll be right here when you return!"
+
+I'm taking you to class! (I wanted this to function like the "i'm taking you somewhere" option but if thats not possible thats okay!)
+"Wait… you’re taking me to class? That sounds exciting!"
+"I’ve never actually been to a university class… this will be fun! I'll go get ready"
+
+Return:
+"We’re back! That was… actually really interesting!"
+I can’t believe how much I learned today…"
+Thanks for taking me with you, [player]~"
+"I hope you had fun too! Maybe next time we can check out another class!"
+
+
+{BE RIGHT BACKS}
+
+I need to catch up on some reading
+“Catching up on reading? That’s smart!
+Make sure to find a comfy spot… maybe with some music?
+I’ll be right here when you finish~”
+
+I’m grabbing a quick snack
+“Yay! Snacks are important for brain power!
+Don’t eat too fast… savor it a little! I’ll be here waiting while you munch~”
+
+I need a quick coffee break
+“Coffee break! Sounds perfect. 
+Don’t drink it too fast, okay? I’ll be right here waiting for you~”
+
+I have some emails to reply to
+“Emails can pile up, huh? Try not to get overwhelmed. 
+I’ll be here when you’re done~”
+
+I’m going to do a quick workout
+“Exercise is always good! Don’t push yourself too hard.
+Come back feeling refreshed, okay~”
+
+I need to tidy my desk
+“A clean workspace helps your mind stay clear! 
+I’ll be here when your desk is sparkling~”
+
