@@ -24,7 +24,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="hv_c_fav_study",
             category=["School"], # list of categories this topic belongs in (These are automatically capitalized)
-            prompt="Thoughs About Libraries", # button text
+            prompt="Thoughts About Libraries", # button text
             random=True
         )
     )
