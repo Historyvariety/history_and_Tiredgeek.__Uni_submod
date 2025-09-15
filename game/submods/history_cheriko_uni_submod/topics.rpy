@@ -30,8 +30,8 @@ init 5 python:
     )
 
 label hv_c_library_thoughts:
-   "The Library {"You know, I keep thinking about libraries."
-   "They’re not just places to borrow books… they’ve always been symbols of knowledge and community."
+   "You know, I keep thinking about libraries..."
+   "They’re not just places to borrow books…they’ve always been symbols of knowledge and community."
    "Fun fact: the Library of Alexandria supposedly held over 400,000 scrolls at its peak. Imagine all the ideas stored in one place!"
    "I bet if we studied there together, you’d have to drag me out at closing time, ahaha~"
 return
@@ -49,8 +49,7 @@ init 5 python:
 
 label hv_c_study_breaks:
    "Breaks { "So, have you been remembering to take breaks when you study?"
-"I read that your brain processes information best in chunks—about 25 to 50 minutes at a time."
-"It’s called the Pomodoro technique. You work hard, then give yourself a little reward."
-"I could be your timer if you want. Every time the break starts, I’ll remind you to stretch and maybe grab a snack~"
-
+    "I read that your brain processes information best in chunks—about 25 to 50 minutes at a time."
+    "It’s called the Pomodoro technique. You work hard, then give yourself a little reward."
+    "I could be your timer if you want. Every time the break starts, I’ll remind you to stretch and maybe grab a snack~"
 return
