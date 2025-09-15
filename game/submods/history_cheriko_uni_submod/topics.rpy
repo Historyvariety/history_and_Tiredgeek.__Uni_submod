@@ -1,4 +1,6 @@
 # All random and monika/player initated conversations go here
+
+#Topic: Class Check-in
 init 5 python:
     addEvent(
         Event(
@@ -18,6 +20,7 @@ label hv_c_class_check_in:
     "Maybe you can make your own little ritual like that—it might help you get into the right mindset."
 return
 
+#Topic: Library Thoughts
 init 5 python:
     addEvent(
         Event(
@@ -36,6 +39,7 @@ label hv_c_library_thoughts:
    "I bet if we studied there together, you’d have to drag me out at closing time, ahaha~"
 return
 
+#Topic: Study Breaks
 init 5 python:
     addEvent(
         Event(
@@ -104,4 +108,26 @@ label hv_c_fav_study:
             m 1eka "That's fair!"
             m 1eua "School throws so many different subjects at you, it can be hard to pick just one."
             m 3eub "Just keep an open mind—you might find yourself loving something you never expected."
+    return
+
+# Topic: Group Projects
+init 5 python:
+    addEvent(
+        Event(
+            persistent.event_database,
+            eventlabel="hv_c_group_projects",
+            category=["School"],
+            prompt="Group Projects",
+            random=True
+        )
+    )
+
+label hv_c_group_projects:
+    m 1eka "Ugh, group projects..."
+    m 3eka "I bet you've had to deal with one already."
+    m 3eud "Did you know research shows that in most groups, only about two people end up doing most of the work?"
+    m 1eka "It's frustrating, but it also teaches patience and leadership."
+    m 3hua "Still, I'd happily be your group partner any day."
+    m 1hub "You'd never have to worry about me slacking off~"
+    m 3hub "Unless of course I get distracted admiring you, aha~"
     return
