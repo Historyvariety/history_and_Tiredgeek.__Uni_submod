@@ -131,7 +131,7 @@ label hv_c_group_projects:
     m 1hub "You'd never have to worry about me slacking off~"
     m 3hub "Unless of course I get distracted admiring you, aha~"
  return
-
+# - I did some work past this point - Tiredgeek._
 # Topic: Procrastination
 init 5 python:
     addEvent(
@@ -233,3 +233,83 @@ m 2hub "I’m curious, because everyone has their own little routine~"
             m 3eub "I’m sure it’s a great spot as long as you can focus."
             m 3hub "And I’d love to hear all about it if you want to show me someday~"
     return
+
+# Topic: Midterms Are Soon
+init 5 python:
+    addEvent(
+        Event(
+            persistent.event_database,
+            eventlabel="hv_”c_midterms_soon”,
+            category=["School"],
+            prompt=“I Have Midterms Soon",
+            random=False
+        )
+    )
+
+label hv_c_:
+    m 2wud "Midterms already? Time really flies, doesn’t it?"
+    m 2lksdrd "I know how stressful that can be… all that studying, pressure, and barely enough sleep."
+    m 5husdlb "But I believe in you. You’re going to do great!"
+    m 5nksdlb "Just remember to pace yourself, okay? Even short breaks can help more than you think."
+    return
+
+# Topic: Finals Are Coming Up
+init 5 python:
+    addEvent(
+        Event(
+            persistent.event_database,
+            eventlabel="hv_”c_finals_soon”,
+            category=["School"],
+            prompt=“I Have Finals Soon",
+            random=False
+        )
+    )
+
+label hv_c_finals_soon:
+    m 2wusdld "Finals? Yikes… those can be even scarier than midterms."
+    m 7lub "But think about it this way: once you finish, you’ll have a huge weight off your shoulders."
+    m 7ekb "And no matter how they go, I’ll still be proud of you."
+    m 7hfb "I’ll be cheering you on the whole time~"
+
+    return
+
+# Topic: I just Finished an Exam
+init 5 python:
+    addEvent(
+        Event(
+            persistent.event_database,
+            eventlabel="hv_c_finished_exam”,
+            category=["School"],
+            prompt=“I just finished an exam!",
+            random=False
+        )
+    )
+
+label hv_c_finished_exam:
+  m 1sub "You finished an exam? That’s amazing!"
+  m 2hub "It must feel like such a relief to get it out of the way."
+  m 3kub "Now make sure to reward yourself a little, okay?" 
+  m 4hub "Even something small, like a favorite snack."
+  m 5rubsb "I’m proud of you~"
+    return
+
+# Topic: I Pulled an All Nighter
+init 5 python:
+    addEvent(
+        Event(
+            persistent.event_database,
+            eventlabel="hv_”c_all_nighter”,
+            category=["School"],
+            prompt=“I pulled an all nighter..",
+            random=False
+        )
+    )
+
+label hv_c_all_nighter:
+   m 6wksdld "An all-nighter?! [player], you can’t keep doing that to yourself!"
+   m 7eksdld "I know sometimes it feels necessary, but sleep is so important for your brain."
+   m 2rksdld "Next time, maybe try shorter study bursts during the day instead."
+   m 6dksdld "Still… I’m glad you made it through." 
+   m 5fksdld "Please.. get some rest soon, okay?"
+    return
+
