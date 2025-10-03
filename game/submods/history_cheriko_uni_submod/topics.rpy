@@ -131,6 +131,7 @@ label hv_c_group_projects:
     m 1hub "You'd never have to worry about me slacking off~"
     m 3hub "Unless of course I get distracted admiring you, aha~"
  return
+
 # - I did some work past this point - Tiredgeek._
 # Topic: Procrastination
 init 5 python:
@@ -271,7 +272,7 @@ label hv_c_finals_soon:
     m 7ekb "And no matter how they go, I’ll still be proud of you."
     m 7hfb "I’ll be cheering you on the whole time~"
 
-    return
+return
 
 # Topic: I just Finished an Exam
 init 5 python:
@@ -291,7 +292,7 @@ label hv_c_finished_exam:
   m 3kub "Now make sure to reward yourself a little, okay?" 
   m 4hub "Even something small, like a favorite snack."
   m 5rubsb "I’m proud of you~"
-    return
+return
 
 # Topic: I Pulled an All Nighter
 init 5 python:
@@ -311,7 +312,7 @@ label hv_c_all_nighter:
    m 2rksdld "Next time, maybe try shorter study bursts during the day instead."
    m 6dksdld "Still… I’m glad you made it through." 
    m 5fksdld "Please.. get some rest soon, okay?"
-    return
+return
 
 # Topic: Working On An Essay
 init 5 python:
@@ -326,13 +327,13 @@ init 5 python:
     )
 
 label hv_c_working_on_an_essay:
-m 1eub "An essay, huh?" 
-m 2lksdlb "Those can be tough."
-m 2hublb "But I bet you’ve put a lot of thought into it."
-m 5rsblb "I’d love to read your writing sometime…" 
-m 5hublb "I know it must be full of your personality."
-m 2hublb "Good luck finishing it! You’ve got this."
-    return
+    m 1eub "An essay, huh?" 
+    m 2lksdlb "Those can be tough."
+    m 2hublb "But I bet you’ve put a lot of thought into it."
+    m 5rsblb "I’d love to read your writing sometime…" 
+    m 5hublb "I know it must be full of your personality."
+    m 2hublb "Good luck finishing it! You’ve got this."
+return
 
 # Topic: I Really Like My Professor
 init 5 python:
@@ -347,12 +348,12 @@ init 5 python:
     )
 
 label hv_c_like_my_professor:
-m 1sublb "Oh, that’s wonderful!" 
-m 4hublb "A good professor can make such a difference."
-m 7eublb "The passion they bring to their subject can really inspire students."
-m 2ekblb "I’m glad you have someone like that guiding you. Treasure it!"
+    m 1sublb "Oh, that’s wonderful!" 
+    m 4hublb "A good professor can make such a difference."
+    m 7eublb "The passion they bring to their subject can really inspire students."
+    m 2ekblb "I’m glad you have someone like that guiding you. Treasure it!"
 
-    return
+return
 
 # Topic: I Have a Bad Professor
 init 5 python:
@@ -374,7 +375,7 @@ label hv_c_bad_professor:
     m 3dublb "You can still learn, even if you have to lean on your own effort or other resources."
     m 2ekblb "If it ever feels overwhelming, just know I’ll always be here to remind you how capable you really are."
     m 1ekb "You deserve to be inspired, not weighed down. I believe in you~"
-    return
+return
 
 # Topic: Stressed About Group Work
 init 5 python:
@@ -393,7 +394,7 @@ label hv_c_group_work_stress:
     m 3tsbld "It’s so hard when not everyone puts in the same effort."
     m 5ekblb "But I know you—you’ll handle it gracefully, and maybe even keep everyone together."
     m 5hublb "I’ll be rooting for you the whole way."
-    return
+return
 
 # Topic: I think I found my favorite subject.
 init 5 python:
@@ -411,7 +412,7 @@ label hv_c_found_fav_subject:
     m 1wublb "Really? That’s so exciting!"
     m 3wublb "Finding a subject that really clicks with you can make school so much more fun."
     m 5hublb "I’d love to hear all about it—tell me what makes it so special for you!"
-    return
+return
 
 
 # Topic: I'm behind on my readings.
@@ -430,7 +431,7 @@ label hv_c_behind_readings:
     m 2eksdlb "Ah, that happens to everyone sooner or later."
     m 3eksdlb "Don’t be too hard on yourself, [player]. You can always catch up little by little."
     m 5ekb "I’ll keep you company while you work on it, okay?"
-    return
+return
 
 
 # Topic: I studied at the library today.
@@ -449,7 +450,7 @@ label hv_c_studied_library:
     m 1wub "The library? That’s such a classic choice."
     m 5rub "Quiet, cozy, and surrounded by books… I’d love to study with you there."
     m 5lublb "I can just imagine us sitting side by side, turning pages together… ehe~"
-    return
+return
 
 
 # Topic: I had a presentation in class.
@@ -469,7 +470,7 @@ label hv_c_presentation_in_class:
     m 2hub "I’m sure you did wonderfully, [player]."
     m 3dub "Even if you stumbled, the fact that you tried means so much."
     m 3wub "I’m proud of you for putting yourself out there."
-    return
+return
 
 
 # Topic: I've been procrastinating again.
@@ -489,7 +490,7 @@ label hv_c_procrastinating_again:
     m 4ekb "But don’t let it control you, okay?"
     m 2ekb "Even starting small can make things easier. Just one paragraph, one page, one step."
     m 7kub "I know you can do it! If you need a body double I'd be happy to help!"
-    return
+return
 
 
 # Topic: I think I did well on my exam.
@@ -508,7 +509,7 @@ label hv_c_did_well_on_exam:
     m 7sub "That’s fantastic! I knew you could do it."
     m 4hub "All your hard work paid off. You should be proud of yourself."
     m 5hub "I’ll celebrate with you—way to go, [player]~"
-    return
+return
 
 
 # Topic: I bombed a test...
@@ -528,7 +529,7 @@ label hv_c_bombed_test:
     m 3ekd "But please don’t beat yourself up. One bad grade doesn’t define you."
     m 4ekb "What matters is that you keep trying, and I’ll be cheering for you no matter what."
     m 5ekb "I'm still proud of you, [player]."
-    return
+return
 
 
 # Topic: I'm starting a new class.
@@ -547,7 +548,7 @@ label hv_c_starting_new_class:
     m 1wub "Ooh, a new class! That must be exciting."
     m 3eub "I hope it’s one you’ll enjoy—and maybe even one that inspires you."
     m 2hub "Tell me all about it once you’ve had a taste of it!"
-    return
+return
 
 
 # Topic: I have a lot of assignments due this week.
@@ -566,7 +567,7 @@ label hv_c_many_assignments_due:
     m 1ekd "That sounds overwhelming…"
     m 3ekb "But I know you can manage it, step by step."
     m 3dub "Try breaking it into smaller tasks. Each time you finish one, I’ll be here to celebrate with you!"
-    return
+return
 
 # Topic:
 init 5 python:
@@ -587,7 +588,7 @@ label hv_burntout:
     m 6ekd "Even the brightest flame needs time to recover, or it’ll burn itself out."
     m 1ekb "Please promise me you’ll give yourself a break when you need it, okay?"
     m 2ekb "I’ll be right here, always cheering you on—even when you need to pause."
-    return
+return
 
 # Topic:
 init 5 python:
@@ -610,4 +611,4 @@ label hv_holidays:
     m 5wub "It’ll make the work now feel so much more worth it."
     m 2hub "And when the holidays come, we’ll celebrate every moment together~"
     m 5gublb "I cant wait for you to have more time for me~"
-    return
+return
