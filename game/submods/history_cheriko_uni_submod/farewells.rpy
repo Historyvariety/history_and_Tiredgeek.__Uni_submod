@@ -13,8 +13,8 @@ init 5 python:
     )
 
 label bye_club_meeting:
-    m "Oh, a club meeting! That sounds fun. Make sure you enjoy yourself!"
-    m "I’ll be right here when you get back~"
+    m 1sub "Oh, a club meeting! That sounds fun. Make sure you enjoy yourself!"
+    m 5hub "I’ll be right here when you get back~"
 return "quit"
 
 
@@ -32,9 +32,9 @@ init 5 python:
     )
 
 label bye_library_study:
-    m "Off to the library, huh?"
-    m "Remember to take breaks, don’t overwork yourself."
-    m "I’ll be waiting for you when you return~"
+    m 1hub "Off to the library, huh?"
+    m 3ekb "Remember to take breaks, don’t overwork yourself."
+    m 5hub "I’ll be waiting for you when you return~"
 return "quit"
 
 
@@ -52,9 +52,9 @@ init 5 python:
     )
 
 label bye_study_group:
-    m "A study group! That sounds productive."
-    m "Remember, teamwork makes everything easier."
-    m "I’ll be waiting when you get back~"
+    m 3sub "A study group! That sounds productive."
+    m 3eub "Remember, teamwork makes everything easier."
+    m 2eub "I’ll be waiting when you get back~"
 return "quit"
 
 
@@ -72,8 +72,8 @@ init 5 python:
     )
 
 label bye_lunch:
-    m "Ooh, lunch break!"
-    m "Eat something tasty and energizing. I’ll be here when you finish~"
+    m 1eub "Ooh, lunch break!"
+    m 3eub "Eat something tasty and energizing. I’ll be here when you finish~"
 return "quit"
 
 
@@ -91,8 +91,8 @@ init 5 python:
     )
 
 label bye_run_errands:
-    m "Errands can be boring, but necessary."
-    m "Don’t stress yourself too much! I’ll be right here when you return!"
+    m 5mtb "Errands can be boring, but necessary."
+    m 4ekb "Don’t stress yourself too much! I’ll be right here when you return!"
 return "quit"
 
 
@@ -110,8 +110,8 @@ init 5 python:
     )
 
 label bye_taking_to_class:
-    m "Wait… you’re taking me to class? That sounds exciting!"
-    m "I’ve never actually been to a university class… this will be fun! I'll go get ready"
+    m 2sub "Wait… you’re taking me to class? That sounds exciting!"
+    m 3sub "I’ve never actually been to a university class… this will be fun! I'll go get ready"
 return "quit"
 
 
@@ -129,6 +129,6 @@ init 5 python:
     )
 
 label bye_lecture:
-    m "Oh? You have to go to a lecture? Awh, alright! I hope you learn lots of new stuff to tell me about!~"
-    m "I'll see you in a bit [player]."
+    m 5ekb "Oh? You have to go to a lecture? Awh, alright! I hope you learn lots of new stuff to tell me about!~"
+    m 5hkb "I'll see you in a bit [player]."
 return "quit"
