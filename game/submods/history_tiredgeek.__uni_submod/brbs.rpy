@@ -192,3 +192,37 @@ label tidy_brb_callback:
     else:
         m 3eub "Back already? Maybe just moved a few things around, huh? Ehehe~"
     return
+
+# topic: Shower
+init 5 python:
+    addEvent(
+        Event(
+            persistent.event_database,
+            eventlabel="hopping_in_shower_brb",
+            category=['be right back'],
+            prompt="I'm hopping in the shower",
+            pool=True,
+            unlocked=True,
+        ),
+        markSeen=True
+    )
+
+label hopping_in_shower_brb:
+    $ ev = mas_getEV("hopping_in_shower_brb")
+
+    m 1eub "Got it! Enjoy your shower, [player]."
+    m 2hub "Make sure the water’s just the right temperature~"
+
+    $ mas_idle_mailbox.send_idle_cb("hopping_in_shower_brb_callback")
+    return "idle"
+
+label hopping_in_shower_brb_callback:
+    if mas_brbs.was_idle_for_at_least(datetime.timedelta(minutes=30), "shower_brb"):
+        m 1ekc "That was quite a long shower, [player]..."
+        m 1eka "You know, long showers waste a lot of water."
+        m 3eub "Still, I hope it helped you relax. University can really wear you down sometimes."
+        m 1hua "Just try to be a little mindful next time, okay?"
+    else:
+        m 1hub "All done? I hope you enjoyed your shower, [player]!"
+        m 3hub "You smell fresh and clean already~ ehehe."
+    return
