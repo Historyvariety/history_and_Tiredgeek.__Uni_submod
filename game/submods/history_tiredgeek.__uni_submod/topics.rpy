@@ -259,7 +259,8 @@ init 5 python:
             eventlabel="hv_c_midterms_soon",
             category=["School"],
             prompt="I Have Midterms Soon",
-            pool=True,unlocked=True
+            pool=True,
+            unlocked=True,
         )
     )
 
@@ -279,7 +280,8 @@ init 5 python:
             eventlabel="hv_c_finals_soon",
             category=["School"],
             prompt="I Have Finals Soon",
-            pool=True,unlocked=True
+            pool=True,
+            unlocked=True,
         )
     )
 
@@ -299,7 +301,8 @@ init 5 python:
             eventlabel="hv_c_finished_exam",
             category=["School"],
             prompt="I just finished an exam!",
-            pool=True,unlocked=True
+            pool=True,
+            unlocked=True,
         )
     )
 
@@ -320,7 +323,8 @@ init 5 python:
             eventlabel="hv_c_all_nighter",
             category=["School"],
             prompt="I pulled an all nighter..",
-            pool=True,unlocked=True
+            pool=True,
+            unlocked=True,
         )
     )
 
@@ -341,7 +345,8 @@ init 5 python:
             eventlabel="hv_c_working_on_an_essay",
             category=["School"],
             prompt="I've been working on an essay",
-            pool=True,unlocked=True
+            pool=True,
+            unlocked=True,
         )
     )
 
@@ -363,7 +368,8 @@ init 5 python:
             eventlabel="hv_c_like_my_professor",
             category=["School"],
             prompt="I really like one of my professors!",
-            pool=True,unlocked=True
+            pool=True,
+            unlocked=True,
         )
     )
 
@@ -383,7 +389,8 @@ init 5 python:
             eventlabel="hv_c_bad_professor",
             category=["School"],
             prompt="I have a bad professor",
-            pool=True,unlocked=True
+            pool=True,
+            unlocked=True,
         )
     )
 
@@ -406,7 +413,8 @@ init 5 python:
             eventlabel="hv_c_group_work_stress",
             category=["School"],
             prompt="I'm stressed about group work",
-            pool=True,unlocked=True
+            pool=True,
+            unlocked=True,
         )
     )
 
@@ -426,7 +434,8 @@ init 5 python:
             eventlabel="hv_c_found_fav_subject",
             category=["School"],
             prompt="I think I found my favorite subject.",
-            pool=True,unlocked=True
+            pool=True,
+            unlocked=True,
         )
     )
 
@@ -445,7 +454,8 @@ init 5 python:
             eventlabel="hv_c_behind_readings",
             category=["School"],
             prompt="I'm behind on my readings.",
-            pool=True,unlocked=True
+            pool=True,
+            unlocked=True,
         )
     )
 
@@ -464,7 +474,8 @@ init 5 python:
             eventlabel="hv_c_studied_library",
             category=["School"],
             prompt="I studied at the library today.",
-            pool=True,unlocked=True
+            pool=True,
+            unlocked=True,
         )
     )
 
@@ -483,7 +494,8 @@ init 5 python:
             eventlabel="hv_c_presentation_in_class",
             category=["School"],
             prompt="I had a presentation in class.",
-            pool=True,unlocked=True
+            pool=True,
+            unlocked=True,
         )
     )
 
@@ -503,7 +515,8 @@ init 5 python:
             eventlabel="hv_c_procrastinating_again",
             category=["School"],
             prompt="I've been procrastinating again.",
-            pool=True,unlocked=True
+            pool=True,
+            unlocked=True,
         )
     )
 
@@ -523,7 +536,8 @@ init 5 python:
             eventlabel="hv_c_did_well_on_exam",
             category=["School"],
             prompt="I think I did well on my exam.",
-            pool=True,unlocked=True
+            pool=True,
+            unlocked=True,
         )
     )
 
@@ -542,7 +556,8 @@ init 5 python:
             eventlabel="hv_c_bombed_test",
             category=["School"],
             prompt="I bombed a test...",
-            pool=True,unlocked=True
+            pool=True,
+            unlocked=True,
         )
     )
 
@@ -562,7 +577,8 @@ init 5 python:
             eventlabel="hv_c_starting_new_class",
             category=["School"],
             prompt="I'm starting a new class.",
-            pool=True,unlocked=True
+            pool=True,
+            unlocked=True,
         )
     )
 
@@ -581,7 +597,8 @@ init 5 python:
             eventlabel="hv_c_many_assignments_due",
             category=["School"],
             prompt="I have a lot of assignments due this week.",
-            pool=True,unlocked=True
+            pool=True,
+            unlocked=True,
         )
     )
 
@@ -600,7 +617,8 @@ init 5 python:
             eventlabel="hv_burntout",
             category=["School"],
             prompt="I'm feeling burnt out.",
-            pool=True,unlocked=True
+            pool=True,
+            unlocked=True,
         )
     )
 
@@ -622,7 +640,8 @@ init 5 python:
             eventlabel="hv_holidays",
             category=["School"],
             prompt="I'm looking forward to the holidays.",
-            pool=True,unlocked=True
+            pool=True,
+            unlocked=True,
         )
     )
 
