@@ -7,17 +7,17 @@ init 5 python:
             persistent.event_database,
             eventlabel="hv_c_class_check_in",
             category=["School"],
-            prompt="Class Check in",
+            prompt="Class Check-in",
             random=True
         )
     )
 
 label hv_c_class_check_in:
-    m 2eub "So [player], how are classes going lately?"
-    m 3lkb "I know the semester can feel like a rollercoaster—sometimes exciting, sometimes exhausting."
+    m 2eub "So [player], how have your classes been going lately?"
+    m 3lkb "I know semesters can feel like a bit of a rollercoaster—some days exciting, other days pretty draining."
     m 3wud "Did you know that in Japan, students actually take off their shoes when entering classrooms? It's meant to keep the learning space clean and focused."
-    m 5lub "I think that's kind of symbolic too… like leaving behind distractions before you study."
-    m 7sub "Maybe you can make your own little ritual like that—it might help you get into the right mindset."
+    m 5lub "I think that's kind of symbolic, too... like leaving behind distractions before you study."
+    m 7sub "Maybe you could make your own little ritual like that—it might help you get into the right mindset."
     return
 
 
@@ -37,10 +37,10 @@ label hv_c_library_thoughts:
     m 1lsd "You know, I keep thinking about libraries..."
     m 3eub "They're not just places to borrow books… they’ve always been symbols of knowledge and community."
     m 4eub "Fun fact: the Library of Alexandria supposedly held over 400,000 scrolls at its peak. Imagine all the ideas stored in one place!"
-    m 5lublb "I bet if we studied there together, you'd have to drag me out at closing time, ahaha~"
+    m 5lublb "I bet if we studied there together, I'd be the one you'd have to drag out at closing time, ahaha~"
     return
 
-
+# Stopped here for proof reading
 # Topic: Study Breaks
 init 5 python:
     addEvent(
